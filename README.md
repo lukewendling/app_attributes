@@ -20,7 +20,7 @@ bundle install
 in your model:
 
 <pre>
-class Author < ActiveRecord::Base
+class Author &lt; ActiveRecord::Base
   include AppAttributes
 
   ext_attribute :hat_size
