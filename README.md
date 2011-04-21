@@ -30,9 +30,8 @@ end
 
 # TODO
 
-* automate migration. currently, you must manually copy/rename migration file in db/migrate
-* finish tests
-* specify dependencies
+* automate db migration. currently, you must manually copy/rename migration file in app_attributes/db/migrate
+* build out tests likely as a nested Rails app
 
 # Copyright and license
 
