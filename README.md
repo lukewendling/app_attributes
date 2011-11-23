@@ -4,25 +4,25 @@ A very simple polymorphic implementation of name-value pairs for any ActiveRecor
 
 ## Install
 
-  sudo gem install app_attributes
+    sudo gem install app_attributes
 
 OR
 
-  gem 'app_attributes'
-  bundle install
+    gem 'app_attributes'
+    bundle install
 
 ## Usage
 
 in your model:
 
-  class Author &lt; ActiveRecord::Base
-    include AppAttributes
+    class Author &lt; ActiveRecord::Base
+      include AppAttributes
 
-    ext_attribute :hat_size, 10, :to_i
-    # args: attribute name, default value, casting method for returned value
-    # provides @author.hat_size, @author.hat_size=, @author.hat_size?
-    # returns value cast as integer
-  end
+      ext_attribute :hat_size, 10, :to_i
+      # args: attribute name, default value, casting method for returned value
+      # provides @author.hat_size, @author.hat_size=, @author.hat_size?
+      # returns value cast as integer
+    end
 
 ## TODO
 
