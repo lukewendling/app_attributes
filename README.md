@@ -15,7 +15,7 @@ OR
 
 in your model:
 
-    class Author &lt; ActiveRecord::Base
+    class Author < ActiveRecord::Base
       include AppAttributes
 
       ext_attribute :hat_size, 10, :to_i
